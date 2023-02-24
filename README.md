@@ -4,7 +4,7 @@ During my tenure at an asset management company, I learned that Eurobonds are on
 
 Additionally the relation between modified duration and bond price is not linear so we need to consider to include convexity calculations for accurate results.
 
-*Convexity, a measure of the curvature of the changes in the price of a bond, in relation to changes in interest rates, addresses this error, by measuring the change in duration, as interest rates fluctuate.* from Investopedia.
+*Convexity, a measure of the curvature of the changes in the price of a bond, in relation to changes in interest rates, addresses this error, by measuring the change in duration, as interest rates fluctuate.* **- Investopedia**.
 
 The purpose of this script is to calculate the duration, convexity and their effect of a bond given its coupon rate, maturity, interest rate, coupon frequency, and a specified basis point (bps) scenario. The code uses the numpy_financial and pandas libraries to perform financial calculations and create a dataframe to store the bond's cash flows, present values, and durations. The output of the function includes the bond's present value, Macaulay duration, modified duration, convexity, and the duration and convexity effect of the specified bps scenario. 
 
