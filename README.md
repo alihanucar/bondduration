@@ -8,6 +8,8 @@ Additionally the relation between modified duration and bond price is not linear
 
 The purpose of this script is to calculate the duration, convexity and their effect of a bond given its coupon rate, maturity, interest rate, coupon frequency, and a specified basis point (bps) scenario. The code uses the numpy_financial and pandas libraries to perform financial calculations and create a dataframe to store the bond's cash flows, present values, and durations. The output of the function includes the bond's present value, Macaulay duration, modified duration, convexity, and the duration and convexity effect of the specified bps scenario. 
 
+*Note : If you are Turkish reader and would like to learn about mathemetical modelling of the script, you can find detailed explanation https://www.spl.com.tr/docs/other/eadaaf6f-b394-4c.pdf in this note with CTRL + F "Tahvilde Konveksite".*
+
 
  ![Logo](https://cdn.educba.com/academy/wp-content/uploads/2019/12/Macaulay-Duration-Formula.jpg)
  ![Logo](https://www.investopedia.com/thmb/sWdOeyNmFkhjEyWUlQtC-MztFGQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/DurationandConvexitytoMeasureBondRisk2-0429456c85984ad3b220cd23a760cda5.png)
